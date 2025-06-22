@@ -22,7 +22,8 @@
 ## Architecture
 
 <p align="center">
-  <img src="frontend/images/architecture.png" alt="SoGent Architecture" width="600" />
+  <img src="frontend/images/SoGent System Architecture.gif" alt="SoGent Architecture" width="100%" />
+  <img src="frontend/images/architecture.png" alt="SoGent Architecture" width="100%" />
 </p>
 
 - **Frontend**: HTML, CSS, JS (Funnel Sans, FontAwesome)
