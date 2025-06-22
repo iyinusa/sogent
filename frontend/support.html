@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Agent - SoGent</title>
+    <meta name="description"
+        content="SoGent is a customer service and engagement platform that provides intelligent multi-agent virtual assistants for modern support.">
+    <meta name="keywords"
+        content="customer service, engagement platform, virtual assistants, multi-agent, support, AI, chatbot, adk">
+    <link rel="icon" href="/images/logo.png" type="image/x-icon">
+    <!-- Google Fonts: Funnel Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="support-body">
+    <div class="support-container">
+        <div class="support-main">
+            <div class="support-header">
+                <div class="support-logo-circle">
+                    <img src="/images/logo.png" alt="Logo" class="support-logo-img">
+                </div>
+                <div class="support-title-group">
+                    <h1 class="support-title">SoGent <span class="support-tagline">– AI Agent Support</span></h1>
+                </div>
+            </div>
+            <div class="chat-window" id="chat-window">
+                <div class="chat-bubble agent">
+                    <span><i class="fa-solid fa-robot"></i> Hi! How can I assist you today?</span>
+                    <span class="chat-time"></span>
+                </div>
+            </div>
+            <form class="chat-input-area" autocomplete="off">
+                <button type="button" class="chat-icon-btn" title="Attach"><i class="fa-solid fa-paperclip"></i></button>
+                <input type="text" class="chat-input" placeholder="Type your message..." aria-label="Type your message">
+                <button type="button" class="chat-icon-btn" title="Mic"><i class="fa-solid fa-microphone"></i></button>
+                <button type="submit" class="chat-send-btn" title="Send"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+        <div class="support-sidebar">
+            <div class="sidebar-header">
+                <i class="fa-solid fa-clock-rotate-left"></i> Support History
+            </div>
+            <div class="sidebar-history">
+                <!-- Example history item -->
+                <!-- <div class="history-item">
+                    <i class="fa-solid fa-comments"></i> Sample conversation with the support agent.
+                </div> -->
+                <!-- End example -->
+            </div>
+            <div class="sidebar-bottom">
+                <select class="website-url-dropdown" title="Select a registered website">
+                    <option value="">&#xf0ac; Select Website</option>
+                </select>
+                <div class="website-info">
+                    <div class="website-logo">
+                        <img src="/images/logo-transparent.png" alt="Website Logo">
+                    </div>
+                    <div class="website-details">
+                        <div class="website-name">Fetched website Name</div>
+                        <div class="website-desc">Fetched website Description</div>
+                    </div>
+                </div>
+                <form class="website-url-form">
+                    <input type="text" placeholder="Enter Website URL" class="website-url-input">
+                    <button type="submit" class="website-url-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
