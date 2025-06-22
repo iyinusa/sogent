@@ -93,14 +93,6 @@ frontend/
 
 ---
 
-## Tech Stack
-
-- **Frontend**: HTML, CSS, JavaScript, Funnel Sans, FontAwesome
-- **Backend**: FastAPI, Google ADK, google-genai, Pydantic
-- **Database**: JSON file (for demo; can be replaced with a real DB)
-
----
-
 ## License
 
 MIT License
